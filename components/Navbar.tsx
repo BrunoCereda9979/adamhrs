@@ -2,7 +2,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/config";
 import Button from "./Button";
-import leaf from '../public/leaf.png';
+import LeafIcon from '../public/leaf.png';
+import UserIcon from '../public/user.svg';
+import MenuIcon from '../public/menu.svg';
 
 const Navbar = () => {
   return (
@@ -12,7 +14,7 @@ const Navbar = () => {
           <span className="mr-[3.5px] text-green-90">Adam</span>
           <span className="font-bold text-xl text-blue-90">HRS</span>
         </p>
-        <Image src={leaf} alt="Logo" width={26} height={25} />
+        <Image src={LeafIcon} alt="Logo" width={26} height={25} />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
@@ -29,13 +31,13 @@ const Navbar = () => {
         <Button
           type="button"
           title="Start Free Trial"
-          icon=". /user.svg"
+          icon={UserIcon}
           variant="btn_blue"
         />
       </div>
       <Image
         className="inline-block cursor-pointer lg:hidden"
-        src="menu.svg"
+        src={MenuIcon}
         alt="menu"
         width={32}
         height={32}

@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Button from "./Button";
+import StarIcon from '../public/star.svg';
+import CalendarIcon from '../public/calendar.svg';
 
 const Hero = () => {
   return (
@@ -22,7 +24,7 @@ const Hero = () => {
             .fill(1)
             .map((_, index) => (
               <Image
-                src="star.svg"
+                src={StarIcon}
                 alt="star"
                 key={index}
                 width={24}
@@ -39,7 +41,7 @@ const Hero = () => {
         <Button
           type="button"
           title="Try it now"
-          icon="calendar.svg"
+          icon={CalendarIcon}
           variant="btn_dark_green"
         />
       </div>

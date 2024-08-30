@@ -1,4 +1,8 @@
 import Feature from "./Feature";
+import ScheduleIcon from '../public/schedule.svg';
+import MeetIcon from '../public/meet.svg';
+import DocumentIcon from '../public/document.svg';
+import BillIcon from '../public/bill.svg';
 
 const Features = () => {
   return (
@@ -17,44 +21,44 @@ const Features = () => {
       </div>
       <div className="w-full py-5 flex flex-row justify-around">
         <Feature
-          image="/schedule.svg"
+          image={ScheduleIcon}
           title="Schedule"
           description="Schedule an appointment or allow your client to book through your client portal."
         />
         <Feature
-          image="/meet.svg"
+          image={MeetIcon}
           title="Meet"
           description="Meet with clients in person or remotely with reliable, engaging telehealth sessions."
         />
         <Feature
-          image="/document.svg"
+          image={DocumentIcon}
           title="Take Notes"
           description="Start the note from your To-Do list, and document the session with easy‑to‑use templates."
         />
         <Feature
-          image="/bill.svg"
+          image={BillIcon}
           title="Billing"
           description="Create and submit insurance claims with just a few clicks. Sit back, relax, and get paid."
         />
       </div>
       <div className="w-full py-5 flex flex-row justify-around">
         <Feature
-          image="/schedule.svg"
+          image={ScheduleIcon}
           title="Schedule"
           description="Schedule an appointment or allow your client to book through your client portal."
         />
         <Feature
-          image="/meet.svg"
+          image={MeetIcon}
           title="Meet"
           description="Meet with clients in person or remotely with reliable, engaging telehealth sessions."
         />
         <Feature
-          image="/document.svg"
+          image={DocumentIcon}
           title="Take Notes"
           description="Start the note from your To-Do list, and document the session with easy‑to‑use templates."
         />
         <Feature
-          image="/bill.svg"
+          image={BillIcon}
           title="Billing"
           description="Create and submit insurance claims with just a few clicks. Sit back, relax, and get paid."
         />
