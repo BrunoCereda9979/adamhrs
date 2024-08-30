@@ -12,7 +12,7 @@ const Navbar = () => {
           <span className="mr-[3.5px] text-green-90">Adam</span>
           <span className="font-bold text-xl text-blue-90">HRS</span>
         </p>
-        <Image src={`${prefix}/quill.png`} alt="Logo" width={26} height={25} />
+        <Image src="https://brunocereda9979.github.io/adamhrs/public/quill.png" alt="Logo" width={26} height={25} />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
