@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { NAV_LINKS } from "@/config";
 import Button from "./Button";
-import LeafIcon from '../public/leaf.png';
+import QuillIcon from '../public/quill.png';
 import UserIcon from '../public/user.svg';
 import MenuIcon from '../public/menu.svg';
 
@@ -14,7 +14,7 @@ const Navbar = () => {
           <span className="mr-[3.5px] text-green-90">Adam</span>
           <span className="font-bold text-xl text-blue-90">HRS</span>
         </p>
-        <Image src={LeafIcon} alt="Logo" width={26} height={25} />
+        <Image src={QuillIcon} alt="Logo" width={26} height={25} />
       </Link>
       <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link) => (
