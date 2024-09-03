@@ -19,7 +19,7 @@ const Features = () => {
           </p>
         </div>
       </div>
-      <div className="w-full py-5 flex flex-row justify-around">
+      <div className="flex flex-row justify-around py-6">
         <Feature
           image={ScheduleIcon}
           title="Schedule"

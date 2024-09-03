@@ -15,11 +15,11 @@ import QuillIconWhite from "../public/quill-white.png";
 
 const Footer = () => {
   return (
-    <section className="flex flex-row justify-around items-start sm:gap-5 bg-green-90 text-slate-50 p-10">
-      <div className="flex flex-col gap-1 h-full">
+    <section className="flex flex-col justify-between items-start gap-5 bg-green-90 lg:gap-5 md:gap-5 text-slate-50 p-10 lg:flex-row lg:justify-around md:flex-row">
+      <div className="flex flex-col gap-2 h-full">
         <div className="flex gap-2">
-            <Image src={QuillIconWhite} alt="Logo" width={23} height={20} />
-            <h3 className="text-xl font-bold pb-1">Adam HRS LLC</h3>
+          <Image src={QuillIconWhite} alt="Logo" width={23} height={20} />
+          <h3 className="text-xl font-bold pb-1">Adam HRS</h3>
         </div>
         <div className="flex flex-row items-center">
           <TiPinOutline size={18} />
